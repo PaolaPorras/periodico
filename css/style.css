@@ -1,211 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Diplomata&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Diplomata&display=swap');
-
-body{
-    width:100%;
-    background: url("https://us.123rf.com/450wm/sorrapongs/sorrapongs1705/sorrapongs170500071/94284374-resumen-marr%C3%B3n-reciclado-fondo-de-textura-de-papel.jpg?ver=6"); 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover; 
-  }
-
-.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
-    padding-left:5px;
-    padding-right:5px;
-    max-width:1800px !important;
+body {
+  width: 100%;
+  background: url("https://us.123rf.com/450wm/sorrapongs/sorrapongs1705/sorrapongs170500071/94284374-resumen-marr%C3%B3n-reciclado-fondo-de-textura-de-papel.jpg?ver=6");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1800px !important;
+}
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
 }
 /*tipografias*/
-.titlePrincipal{
-    font-family: 'UnifrakturCook', cursive;
-    font-size:5em;
-    text-align:center;
+.titlePrincipal {
+  font-family: "UnifrakturCook", cursive;
+  font-size: 5em;
+  text-align: center;
 }
-.titleHeader{
-    text-align:center;
-    font-weight: 600;
+.titleHeader {
+  text-align: center;
+  font-weight: 600;
 }
-.textHeader{
-    font-size:0.8em;
-    text-align:center;
-    padding:0;
+.textHeader {
+  font-size: 0.8em;
+  text-align: center;
+  padding: 0;
 }
-.headingMetaText{
-    font-weight: 600;
-    font-size:0.8em;
-    font-weight: 600;
+.headingMetaText {
+  font-weight: 600;
+  font-size: 0.8em;
+  font-weight: 600;
 }
 
-.issueMeta{
-    text-align:left;
-    padding:15px 0px 7px 0px;
-    line-height: 0px;
-    font-weight: 600;
+.issueMeta {
+  text-align: left;
+  padding: 15px 0px 7px 0px;
+  line-height: 0px;
+  font-weight: 600;
 }
-.dateMeta{
-    text-align:center;
-    padding:15px 0px 7px 0px;
-    line-height: 0px;
-    font-weight: 600;
+.dateMeta {
+  text-align: center;
+  padding: 15px 0px 7px 0px;
+  line-height: 0px;
+  font-weight: 600;
 }
-.titleMeta{
-    text-align:right;
-    padding:15px 0px 7px 0px;
-    line-height: 0px;
-    font-weight: 600;
+.titleMeta {
+  text-align: right;
+  padding: 15px 0px 7px 0px;
+  line-height: 0px;
+  font-weight: 600;
 }
-.parrafo_Cursiva{
-    text-align:center;
-    font-style: oblique;
-    padding:0px 10px 7px 10px;
-    line-height: 1;
-    font-size:0.8;
-    margin-top:40px;
+.parrafo_Cursiva {
+  text-align: center;
+  font-style: oblique;
+  padding: 0px 10px 7px 10px;
+  line-height: 1;
+  font-size: 0.8;
+  margin-top: 40px;
 }
-.font_Capitalize{
-    font-family: 'Diplomata', cursive;
-    font-weight:600;
-    font-size:2em;
+.font_Capitalize {
+  font-family: "Diplomata", cursive;
+  font-weight: 600;
+  font-size: 2em;
 }
-.textContent{
-    text-align: justify;
+.textContent {
+  text-align: justify;
 }
-.titleArticle{
-    text-align: center;
-    font-family: 'Diplomata', cursive;
-    font-size:1.2em;
+.textContent_primerParrafo {
+  margin-top: 20px;
 }
-.headingContent{
-    text-align:center;
-    font-weight:600;
-    margin-top:20px;
+.titleArticle {
+  text-align: center;
+  font-family: "Diplomata", cursive;
+  font-size: 1.2em;
 }
-.title_Secundary{
-    text-align: left;
-    font-family: 'Diplomata', cursive;
-    font-size:1.5em;
-    font-weight: 300;
+.headingContent {
+  text-align: center;
+  font-weight: 600;
+  margin-top: 20px;
 }
-.parrafo_Cursiva_Column{
-    text-align:justify;
-    font-style: oblique;
-    line-height: 1;
-    font-size:1em;
-    padding:0;
+.title_Secundary {
+  text-align: left;
+  font-family: "Diplomata", cursive;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+.parrafo_Cursiva_Column {
+  text-align: justify;
+  font-style: oblique;
+  line-height: 1;
+  font-size: 1em;
+  padding: 0;
 }
 
 /*Contenedores*/
-p{
-    margin-bottom:0  !important;
+p {
+  margin-bottom: 0 !important;
 }
-.containerContent{
-    margin:10px 10px 0px 0px;
+.containerContent {
+  margin: 10px 10px 0px 0px;
 }
-.containerHeader{
-   margin-top:20px;
+.containerHeader {
+  margin-top: 20px;
 }
-.containerHeaderLaterality{
-    border:3px solid #000;
-    padding:10px 10px 10px 0px;
-    margin-top:40px;
+.containerHeaderLaterality {
+  border: 3px solid #000;
+  padding: 10px 10px 10px 0px;
 }
-.headingMetaText{
-border-top:3px solid #000;
-border-bottom: 3px solid #000;
-margin-bottom:30px;
-}
-
-.headingContent{
-    border:3px solid #000;
-    padding:5px;
-    margin:15px 0px 15px 0px !important;
+.headingMetaText {
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
+  margin-bottom: 30px;
 }
 
-.Secundary_Article{
-    padding:0px 10px 0px 10px;
+.headingContent {
+  border: 3px solid #000;
+  padding: 5px;
+  margin: 15px 0px 15px 0px !important;
 }
 
-.container_Border{
-    border-top:3px solid #000;
-    border-bottom:3px solid #000;
-    padding:10px 0px 10px 0px;
-    margin-top:20px;
+.Secundary_Article {
+  padding: 0px 10px 0px 10px;
 }
-.container_Border_Top{
-    border-top:3px solid #000;
-    margin-top:20px;
-    padding-top:10px;
+
+.container_Border {
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
+  padding: 10px 0px 10px 0px;
+  margin-top: 20px;
+}
+.container_Border_Top {
+  border-top: 3px solid #000;
+  margin-top: 20px;
+  padding-top: 10px;
 }
 
 /*Imagenes*/
 
-.imagen_Receta{
-    width:100%;
-    margin-top:20px;
+#imagen_Receta {
+  width: 100%;
+  margin-top: 20px;
 }
-.imagen_Castillo{
-    width:100%;
+#imagen_Castillo {
+  width: 100%;
 }
-.imagen_Noticia{
-    width:100%;
-    margin-top:20px;
-    border: 2px solid #000;
-    padding:10px;
+#imagen_Noticia {
+  width: 100%;
+  margin-top: 20px;
+  border: 2px solid #000;
+  padding: 10px;
 }
-.imagen_NoticiaPrincipal{
-    width:100%;
-    margin-top:40px;
-    border: 2px solid #000;
-    padding:10px;
+#imagen_NoticiaPrincipal {
+  width: 100%;
+  margin-top: 45px;
+  border: 2px solid #000;
+  padding: 10px;
 }
-.imagen_Anuncio{
-    width:100%;
-    border: 2px solid #000;
-    padding:10px;
-    margin-top:20px !important;
+#imagen_Anuncio {
+  width: 100%;
+  border: 2px solid #000;
+  padding: 10px;
+  margin-top: 20px;
 }
-@media (max-width: 768px){ 
-    .parrafo_Cursiva_Column{
-        font-size:0.8em;
-    }
-    .titlePrincipal{
-        font-size:5em;
-    }
-    .issueMeta {
-        font-size:0.8em;
-    }
-    .dateMeta 
-    {
-        font-size:0.8em;
-    }
-    .titleMeta{
-        font-size:0.8em;
-    }
+#imagen_Receta {
+  margin-top: 20px;
+}
+@media (max-width: 568px) {
+  .issueMeta {
+    text-align: center;
+  }
+  .dateMeta {
+    text-align: center;
+  }
+  .titleMeta {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .parrafo_Cursiva_Column {
+    font-size: 0.8rem;
+  }
+  .titlePrincipal {
+    font-size: 3rem;
+  }
+  .issueMeta {
+    font-size: 0.8rem;
+  }
+  .dateMeta {
+    font-size: 0.8rem;
+  }
+  .titleMeta {
+    font-size: 1rem;
+  }
+  .imagen_NoticiaPrincipal {
+    margin-top: 35px;
+  }
+  .imagen_Anuncio {
+    margin-top: 20px;
+  }
 }
 
-
-@media (max-width: 992px){ 
-    .containerHeaderLaterality {
-        margin-top: 0px;
-    }
-    .titleArticle{
-        font-size: 0.8em;
-    }
-    .parrafo_Cursiva{
-        margin:0;
-    }
-    .titleArticle{
-        font-size:0.8em;
-    }
-    .title_Secundary{
-        font-size:1em;
-    }
-    .textContent{
-        font-size:0.8em;
-    }
-    .container{
-        margin:0 !important;
-        padding-left:10px !important;
-        padding-right:10px !important;
-    }
+@media (max-width: 992px) {
+  .titlePrincipal {
+    font-size: 3.5rem;
+  }
+  .containerHeaderLaterality {
+    margin-top: 0px;
+  }
+  .titleArticle {
+    font-size: 0.8rem;
+  }
+  .parrafo_Cursiva {
+    margin: 0;
+  }
+  .titleArticle {
+    font-size: 0.8rem;
+  }
+  .title_Secundary {
+    font-size: 1rem;
+  }
+  .textContent {
+    font-size: 0.8rem;
+  }
 }
